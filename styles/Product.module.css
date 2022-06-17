@@ -27,3 +27,16 @@
     justify-content: space-between;
     align-content: left;
 }
+
+.size{
+    cursor: pointer;
+}
+
+.price{
+    color:orange;
+    font-size: 24px;
+}
+
+.size:active{
+    color: orange;
+}
