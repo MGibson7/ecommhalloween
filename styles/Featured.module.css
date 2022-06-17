@@ -47,5 +47,8 @@
         height: 50vh;
         position: relative;
     }
+    .imgContainer h2{
+        display: none;
+    }
     
 }

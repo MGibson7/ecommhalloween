@@ -23,7 +23,6 @@ const Navbar = () =>{
                     <li className={styles.listItem}>Menu</li>
                     <div className = {styles.siteTitle}>
                          <h1>SPOOKY SCARY HALLOWEEN</h1>
-                         <h4>Americas #1 Used Halloween Store</h4>
 
                     </div>
                    
