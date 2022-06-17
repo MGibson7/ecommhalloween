@@ -1,0 +1,94 @@
+.container{
+    height: 100vh;
+    display: flex;
+    margin-top: 20px;
+    position: relative;
+    padding: 50px;
+}
+
+.imgContainer{
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.left{
+    flex: 2;
+}
+
+.right{
+    flex: 1;
+}
+
+.table{
+    width: 100%;
+    border-spacing: 20px;
+    text-align: center;
+    justify-content: center;
+}
+
+.name{
+    color: orange;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.total{
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.wrapper{
+    width: 90%;
+    max-height: 300px;
+    background-color: #333;
+    padding: 50px;
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: orange;
+}
+
+.totalTextTitle{
+    margin-right: 10px;
+}
+
+.button{
+    height: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: orange;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 480px){
+    .container{
+        flex-direction: column;
+        padding: 0px;
+    }
+    .table{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border-spacing: 5px;
+    }
+
+    .trTitle{
+        display: none;
+    }
+    .tr{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 0px;
+    }
+    .wrapper{
+        padding: 0px;
+        padding-top: 0px;
+        margin: 0px;
+        width: 100%;
+    }
+}

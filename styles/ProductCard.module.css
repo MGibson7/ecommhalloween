@@ -32,3 +32,16 @@ box-shadow: 0px 0px 15px 5px rgba(226, 128, 15, 0.925);
     color: #777;
 
 }
+
+@media screen and (max-width: 480px){
+    .container{
+        width: 100%;
+    }
+
+    .title{
+        font-size: 30px;
+    }
+    .price{
+        font-size: 24px;
+    }
+}
