@@ -9,7 +9,7 @@ const Navbar = () =>{
                     <Image src = "/img/evilpump.png" alt ="contact" width ="32" height = "32"/>
                 </div>
                 <div className= {styles.texts}>
-                    <div className= {styles.text}>Too Spooked Call Us!</div>
+                    <div className= {styles.text}>Too Spooked, Call Us!</div>
                     <div className= {styles.text}>777-777-7777</div>
 
                 </div>
