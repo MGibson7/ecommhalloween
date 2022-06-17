@@ -6,8 +6,8 @@ import ProductCard from "./ProductCard"
 const ProductList = () => {
   return (
     <div className = {styles.container}>
-        <h1 className = {styles.title}>America's #1 Used Halloween Store</h1>
-        <p classNAme = {styles.desc}>
+        <h1 className = {styles.title}>Americas #1 Used Halloween Store</h1>
+        <p className = {styles.desc}>
             The Best Prices of the Season
         </p>
 
