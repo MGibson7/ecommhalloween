@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 
 const OrderSchema = new mongoose.Schema({
     customer:{
-        tpye:String,
+        type:String,
         required: true,
         maxlength:60,
     },
@@ -14,7 +14,7 @@ const OrderSchema = new mongoose.Schema({
     },
     total:{
         type:Number,
-        required: true.valueOf,
+        required: true,
 
     },
     status:{
