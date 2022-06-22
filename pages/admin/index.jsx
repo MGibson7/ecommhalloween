@@ -53,7 +53,7 @@ const Index = ({orders, products}) => {
 
                 </tbody>
                     {productList.map(product=>(
-                    <tbody>
+                    <tbody key={product._id}>
                     <tr className = {styles.trTitle}>
                         <td>
                             <Image
