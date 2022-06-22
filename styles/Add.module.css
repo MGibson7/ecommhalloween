@@ -70,4 +70,9 @@
 
 .priceContainer{
     display: flex;
+    justify-content: space-between;
+}
+
+.inputSm{
+    width: 25%;
 }

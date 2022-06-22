@@ -29,7 +29,7 @@ const Add = ({setClose}) => {
                 title, desc, prices, img:url,
             }
 
-            await axios.post("http://localhost:3000/api/products", newProduct);
+            await axios.post("http://ecommhalloween3.vercel.app/api/products", newProduct);
             setClose(true);
         }catch(err){
             console.log(err)

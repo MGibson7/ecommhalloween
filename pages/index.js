@@ -41,7 +41,7 @@ export const getServerSideProps = async(ctx) => {
 
   }
 
-  const res = await axios.get("http://localhost:3000/api/products");
+  const res = await axios.get("http://ecommhalloween3.vercel.app/api/products");
   return{
     props:{
       productList: res.data,
