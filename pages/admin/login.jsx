@@ -11,7 +11,7 @@ const Login = () => {
 
     const handleClick = async ()=>{
         try{
-            await axios.post("http://ecommhalloween3.vercel.app/api/login", {username, password})
+            await axios.post("https://ecommhalloween.vercel.app/api/login", {username, password})
             router.push("/admin")
 
         }catch(err){

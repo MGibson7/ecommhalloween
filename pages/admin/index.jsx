@@ -9,7 +9,7 @@ const Index = ({orders, products}) => {
     const status = ["preparing", "on the way", "delivered"];
     const handleDelete = async(id) => {
         try{
-            const res = await axios.delete("http://ecommhalloween3.vercel.app/api/products/"+id)
+            const res = await axios.delete("https://ecommhalloween.vercel.app/api/products/"+id)
             setProductList(productList.filter(product=>product._id !== id))
 
         }catch(err){
@@ -23,7 +23,7 @@ const Index = ({orders, products}) => {
         const item = orderList.filter(order=>order._id===id)[0]
         const currentStatus = item.status;
         try{
-            const res = await axios.put("http://ecommhalloween3.vercel.app/api/products/orders/"+id, {status:currentStatus+1});
+            const res = await axios.put("https://ecommhalloween.vercel.app/api/products/orders/"+id, {status:currentStatus+1});
             setOrderList([
                 res.data,
                 ...orderList.filter((order)=>order._id !==id),
@@ -131,8 +131,8 @@ export const getServerSideProps = async(ctx) => {
         }
 
     }
-    const productRes = await axios.get("http://ecommhalloween3.vercel.app/api/products")
-    const orderRes = await axios.get("http://ecommhalloween3.vercel.app/api/products/orders")
+    const productRes = await axios.get("https://ecommhalloween.vercel.app/api/products")
+    const orderRes = await axios.get("https://ecommhalloween.vercel.app/api/products/orders")
 
     return{
         props:{
