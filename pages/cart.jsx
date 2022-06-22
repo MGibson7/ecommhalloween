@@ -26,7 +26,7 @@ const Cart = () => {
 
   const createOrder = async (data) =>{
     try{
-      const res = await axios.post("http://localhost:3000/api/orders", data)
+      const res = await axios.post("http://localhost:3000/api/products/orders", data)
 
       if (res.status === 201){
         dispatch(reset());
@@ -84,8 +84,8 @@ const ButtonWrapper = ({ currency, showSpinner }) => {
               }}
               onApprove={function (data, actions) {
                   return actions.order.capture().then(function (details) {
-                      const shippit = details.purchase_units[0].shippit;
-                      createOrder({customer: shippit.name.full_name, address: shippit.address.address_line_1, total: cart.total, method: 1,});
+                      const shipping = details.purchase_units[0].shipping;
+                      createOrder({customer: shipping.name.full_name, address: shipping.address.address_line_1, total: cart.total, method: 1,});
                   });
               }}
           />
