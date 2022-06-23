@@ -20,7 +20,7 @@
 }
 
 .wrapper img{
-    max-height: 100px;
+    max-height: 150px;
 }
 
 @media screen and (max-width: 480px){
