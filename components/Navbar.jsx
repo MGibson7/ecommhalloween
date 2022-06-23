@@ -33,10 +33,9 @@ const Navbar = () =>{
                     </Link>
                     
                     <li className={styles.listItem}>Products</li>
-                    <li className={styles.listItem}>Menu</li>
                     <Link href = "/" passHref>
                     <div className = {styles.siteTitle}>
-                    <Image src = "/img/logo.webp" alt ="contact" width ="125" height = "100"/>
+                    <Image src = "/img/logo.webp" alt ="contact" width ="150" height = "100"/>
 
                     </div>
 
@@ -44,7 +43,6 @@ const Navbar = () =>{
                     
                    
                     <li className={styles.listItem}>Events</li>
-                    <li className={styles.listItem}>Blog</li>
                     <li className={styles.listItem}>Contact</li>
 
                 </ul>
