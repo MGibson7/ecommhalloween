@@ -52,6 +52,7 @@ const Add = ({setClose}) => {
                 <label className = {styles.label}>Title</label>
                 <input className = {styles.input}
                 type = "text"
+                placeholder="Product Title Here"
                 onChange = {(e)=> setTitle(e.target.value)}
                 />
 
@@ -61,6 +62,7 @@ const Add = ({setClose}) => {
                 <label className = {styles.label}>Desc</label>
                 <textarea rows = {4}
                 type = "text"
+                placeholder="Product Description Here"
                 onChange = {(e)=> setDesc(e.target.value)}
                 />
 
