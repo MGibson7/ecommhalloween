@@ -56,7 +56,7 @@ const Product = ({product}) => {
 
             </div>
             <div className={styles.add}>
-                <input onChange={(e)=> setQuantity(e.target.value)} type = "number" defaultValue={1} className = {styles.quantity}/>
+                <input onChange={(e)=> setQuantity(e.target.value)} type = "number" min = "1" defaultValue={1} className = {styles.quantity}/>
                 <button onClick={handleClick} className={styles.button}>Add to Cart</button>
             </div>
             
