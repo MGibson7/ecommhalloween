@@ -82,7 +82,8 @@
 
 .siteTitle{
     text-align: center;
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: sans-serif;
+    font-weight: 500;
     color: black;
     cursor: pointer;
 }
