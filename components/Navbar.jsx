@@ -36,7 +36,7 @@ const Navbar = () =>{
                     <li className={styles.listItem}>Menu</li>
                     <Link href = "/" passHref>
                     <div className = {styles.siteTitle}>
-                    <Image src = "/img/logo.webp" alt ="contact" width ="75" height = "75"/>
+                    <Image src = "/img/logo.webp" alt ="contact" width ="125" height = "100"/>
 
                     </div>
 
