@@ -76,3 +76,9 @@
 .inputSm{
     width: 25%;
 }
+
+.addButton{
+    cursor: pointer;
+    background-color: orange;
+    color: white;
+}
