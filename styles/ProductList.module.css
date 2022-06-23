@@ -19,6 +19,10 @@
     flex-wrap: wrap;
 }
 
+.wrapper img{
+    max-height: 100px;
+}
+
 @media screen and (max-width: 480px){
     .title{
         text-align: center;

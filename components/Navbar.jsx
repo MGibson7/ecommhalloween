@@ -9,9 +9,14 @@ const Navbar = () =>{
     return(
         <div className = {styles.container}>
             <div className = {styles.item}>
-                <div className = {styles.callButton}>
+            <Link href = "/" passHref>
+            <div className = {styles.callButton}>
+                    
                     <Image src = "/img/evilpump.png" alt ="contact" width ="32" height = "32"/>
                 </div>
+
+            </Link>
+                
                 <div className= {styles.texts}>
                     <div className= {styles.text}>Too Spooked, Call Us!</div>
                     <div className= {styles.text}>777-777-7777</div>
@@ -29,10 +34,14 @@ const Navbar = () =>{
                     
                     <li className={styles.listItem}>Products</li>
                     <li className={styles.listItem}>Menu</li>
+                    <Link href = "/" passHref>
                     <div className = {styles.siteTitle}>
-                         <h1>SPOOKY SCARY HALLOWEEN</h1>
+                    <Image src = "/img/logo.webp" alt ="contact" width ="50" height = "50"/>
 
                     </div>
+
+                    </Link>
+                    
                    
                     <li className={styles.listItem}>Events</li>
                     <li className={styles.listItem}>Blog</li>
