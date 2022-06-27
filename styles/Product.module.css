@@ -63,10 +63,16 @@
         text-align: center;
         flex-direction: column;
         margin-top: 20px;
+        
     }
     .imgContainer{
         width: 70%;
         height: 80%;
+    }
+
+    .imgContainer img{
+        max-height: 100px;
+        max-width: 100px;
     }
 
     .title{
