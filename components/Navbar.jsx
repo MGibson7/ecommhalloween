@@ -32,7 +32,7 @@ const Navbar = () =>{
 
                     </Link>
                     
-                    <Link href = "/.prodWrapper" passHref>
+                    <Link href = "/#products" passHref>
                     <li className={styles.listItem}>Products</li>
                     </Link>
                     <Link href = "/" passHref>
