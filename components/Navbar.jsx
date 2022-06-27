@@ -32,7 +32,9 @@ const Navbar = () =>{
 
                     </Link>
                     
+                    <Link href = "/.prodWrapper" passHref>
                     <li className={styles.listItem}>Products</li>
+                    </Link>
                     <Link href = "/" passHref>
                     <div className = {styles.siteTitle}>
                         <Image src = "/img/logo.webp" alt ="contact" width ="125" height = "100"/>

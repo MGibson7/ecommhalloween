@@ -11,7 +11,7 @@ const ProductList = ({productList}) => {
             The Best Prices of the Season
         </p>
 
-        <div className = {styles.wrapper}>
+        <div className = {styles.prodWrapper}>
           
           {productList.map((product)=>(
             <ProductCard key = {product.id} product = {product}/>
