@@ -27,10 +27,12 @@ const Navbar = () =>{
 
             <div className = {styles.item}>
                 <ul className = {styles.list}>
+                    <li className={styles.listItem}></li>
                     <Link href = "/" passHref>
                         <li className={styles.listItem}>Homepage</li>
 
                     </Link>
+                    <li className={styles.listItem}></li>
                     
                     
                     <Link href = "/" passHref>
