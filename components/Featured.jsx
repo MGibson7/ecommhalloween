@@ -23,7 +23,7 @@ const Featured = () => {
   return (
     <div className={styles.container}>
         <div className={styles.arrowContainer} style = {{left:0}} onClick={()=>handleArrow("l")}>
-            <Image src = "/img/arrowr.png" alt = "" layout = 'fill' objectFit = "contain"/>
+        <Image src = "/img/arrowr.png" alt = "" layout = 'fill' objectFit = "contain"/>
 
         </div>
         
